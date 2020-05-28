@@ -1,5 +1,4 @@
 theme: jekyll-theme-architect
-markdown: maruku
 title: "Categorical Mathemagician"
 description: "If you can sort it slowly, you can sort it quickly!"
 markdown: kramdown
