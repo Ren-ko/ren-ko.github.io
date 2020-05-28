@@ -1,4 +1,41 @@
-<p style="text-align: center; background-color: white;">
-  <a href="{{site.baseurl}}/">回到主页</a> |
-  <a href="{{site.baseurl}}/submissions">我想出题</a>
-</p>
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #2879d0;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #70b5ff;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #549deb;
+  color: white;
+}
+</style>
+
+<div class="navbar">
+  <a href="#" class="active">主页</a>
+  <a href="/submissions">我想出题</a>
+</div>
