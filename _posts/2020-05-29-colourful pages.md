@@ -7,6 +7,6 @@
 {color/{green}}
 {color/{yellow}}
 {color/{orange}}
-{coloe/{purple}}
+{color/{purple}}
 ```
 
