@@ -1,6 +1,6 @@
 # 想变成彩色
 
-```tex
+```java
 {color/{red}}
 {color/{blue}
 {color/{pink}}
