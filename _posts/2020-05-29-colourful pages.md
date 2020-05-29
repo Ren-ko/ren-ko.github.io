@@ -1,6 +1,6 @@
 # 想变成彩色
 
-```wiki
+```tex
 {color/{red}}
 {color/{blue}
 {color/{pink}}
