@@ -1,13 +1,12 @@
-# 想变成彩色
+# 完善中
 
-<p style="color:red">nya</p>
+<p style="color:pink">正在准备分类表格。大家会在暑假之间看到完整、全面的系统。</p>
 
-<p style="color:orange">nya</p>
+<p style="color:pink">来自Renko2020-5-29的留言</p>
 
-<p style="color:green">nya</p>
 
-<p style="color:pink">正在准备分类表格...大家</p>
 
-<p style="color:pink">等一等就好nya！</p>
 
-<p style="color:pink">renko的留言</p>
+<p style="color:pink">表格的主要参考是生物学中的检索表进行对照制作。</p>
+
+<p style="color:pink">来自Renko2020-6-19的留言</p>
