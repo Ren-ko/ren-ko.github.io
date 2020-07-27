@@ -1,6 +1,6 @@
 ---
 title: "测试题目"
-tag: test maths questions algebra
+tags: test maths questions algebra
 ---
 
 
