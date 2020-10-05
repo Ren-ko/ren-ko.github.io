@@ -63,9 +63,15 @@ function myFunction() {
   padding-top: 60px;
 }
 
+.navbar a {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 </style>
 
-<div id="navbar">
+<div class="navbar">
   <a href="/" class="active">主页</a>
   <a href="/submissions">我想出题</a>
   <a href="/contact">联系我们</a>
