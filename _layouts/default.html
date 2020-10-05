@@ -33,20 +33,20 @@
           {{ content }}
           <h3>题目</h3>
           <ul>
-            {% for post in site.categories.题目 %}
-            <li><a href="{{ url }}">{{ title }}</a></li>
+            {% for myposts in site.categories[题目] limit: 10 %}
+            <li><a href="{{ myposts.url }}">{{ myposts.title }}</a></li>
             {% endfor %}
           </ul>
           <h3>其他</h3>
           <ul>
-            {% for post in site.categories.其他 %}
-            <li><a href="{{ url }}">{{ title }}</a></li>
+            {% for myposts in site.categories[其他] limit: 10 %}
+            <li><a href="{{ myposts.url }}">{{ myposts.title }}</a></li>
             {% endfor %}
           </ul>
           <h3>测试</h3>
           <ul>
-            {% for post in site.categories.测试 %}
-            <li><a href="{{ url }}">{{ title }}</a></li>
+            {% for myposts in site.categories[测试] limit: 10 %}
+            <li><a href="{{ myposts.url }}">{{ myposts.title }}</a></li>
             {% endfor %}
           </ul>
         </section>
