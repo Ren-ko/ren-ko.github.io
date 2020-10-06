@@ -33,19 +33,19 @@
           {{ content }}
           <h3>题目</h3>
           <ul>
-            {% for myposts in site.categories[题目] limit: 10 %}
+            {% for myposts in site.categories["题目"] limit: 10 %}
             <li><a href="{{ myposts.url }}">{{ myposts.title }}</a></li>
             {% endfor %}
           </ul>
           <h3>其他</h3>
           <ul>
-            {% for myposts in site.categories[其他] limit: 10 %}
+            {% for myposts in site.categories["其他"] limit: 10 %}
             <li><a href="{{ myposts.url }}">{{ myposts.title }}</a></li>
             {% endfor %}
           </ul>
           <h3>测试</h3>
           <ul>
-            {% for myposts in site.categories[测试] limit: 10 %}
+            {% for myposts in site.categories["测试"] limit: 10 %}
             <li><a href="{{ myposts.url }}">{{ myposts.title }}</a></li>
             {% endfor %}
           </ul>
